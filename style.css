@@ -1,3 +1,15 @@
+:root {
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-gray: #F2F2F2;
+  --clr-green-950: #004140;
+  --clr-green-500: #19B89D;
+  --clr-cyan-800: #006971;
+  --clr-cyan-500: #26B5C0;
+  --clr-gold-500: #E28625;
+  --clr-gold-200: #FFD473;
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
   box-sizing: border-box;
