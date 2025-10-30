@@ -1,13 +1,29 @@
 :root {
   --clr-white: #fff;
   --clr-black: #000;
-  --clr-gray: #F2F2F2;
+  --clr-gray-100: #F2F2F2;
   --clr-green-950: #004140;
   --clr-green-500: #19B89D;
   --clr-cyan-800: #006971;
   --clr-cyan-500: #26B5C0;
   --clr-gold-500: #E28625;
   --clr-gold-200: #FFD473;
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Big Shoulders';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/big-shoulders-v4-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/lexend-deca-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* 1. Use a more-intuitive box-sizing model */
@@ -32,6 +48,9 @@ body {
   line-height: 1.5;
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+
+  /* --- */
+  font-family: "Lexend Deca", 'Times New Roman', Times, serif;
 }
 
 /* 6. Improve media defaults */
