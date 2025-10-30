@@ -53,7 +53,6 @@ body {
   background-color: var(--clr-gray-100);
   color: var(--clr-white);
   font-family: "Lexend Deca", 'Times New Roman', Times, serif;
-  height: 100vh;
   display: grid;
   place-content: center;
 }
@@ -96,9 +95,11 @@ h1, h2, h3, h4, h5, h6 {
 .cards-section {
   display: grid;
   margin-inline: 24px;
+  margin-block: 88px;
 }
 
 .card {
+  max-width: 327px;
   padding: 48px;
 }
 
@@ -154,4 +155,39 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--clr-gray-100);
   padding: 8px 32px;
   border-radius: 25px;
+}
+
+@media screen and (min-width: 48rem) {
+  .cards-section {
+    margin-inline: 80px;
+  }
+
+  .card {
+    max-width: 608px;
+    padding: 48px 80px;
+  }
+}
+
+@media screen and (min-width: 90rem) {
+  body {
+    height: 100vh;
+  }
+
+  .cards-section {
+    margin-inline: 260px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    max-width: 921px;
+    padding: 48px;
+  }
+
+  .card__img {
+    padding-block-end: 40px;
+  }
+
+  .card__text {
+    padding-block-end: 80px;
+  }
 }
