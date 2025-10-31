@@ -193,7 +193,6 @@ h1, h2, h3, h4, h5, h6 {
   .cards-section {
     max-width: 57.5625rem;
     margin-inline: 16.25rem;
-    margin-block: 9.375rem;
     grid-template-columns: repeat(3, 1fr);
   }
 
