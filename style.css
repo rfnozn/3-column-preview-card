@@ -102,13 +102,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cards-section {
+  max-width: 20.4375rem;
   display: grid;
   margin-inline: 1.5rem;
   margin-block: 5.5rem;
 }
 
 .card {
-  max-width: 20.4375rem;
   padding: 3rem;
 }
 
@@ -176,11 +176,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 48rem) {
   .cards-section {
+    max-width: 38rem;
     margin-inline: 5rem;
   }
 
   .card {
-    max-width: 38rem;
     padding: 3rem 5rem;
   }
 }
@@ -191,13 +191,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .cards-section {
+    max-width: 57.5625rem;
     margin-inline: 16.25rem;
     margin-block: 9.375rem;
     grid-template-columns: repeat(3, 1fr);
   }
 
   .card {
-    max-width: 57.5625rem;
     padding: 3rem;
   }
 
