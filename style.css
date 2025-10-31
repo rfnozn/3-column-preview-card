@@ -183,6 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .cards-section {
     margin-inline: 260px;
+    margin-block: 150px;
     grid-template-columns: repeat(3, 1fr);
   }
 
