@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-.cards-section {
+.cards {
   max-width: 20.4375rem;
   display: grid;
   margin-inline: 1.5rem;
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (min-width: 48rem) {
-  .cards-section {
+  .cards {
     max-width: 38rem;
     margin-inline: 5rem;
   }
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
   }
 
-  .cards-section {
+  .cards {
     max-width: 57.5625rem;
     margin-inline: 16.25rem;
     grid-template-columns: repeat(3, 1fr);
